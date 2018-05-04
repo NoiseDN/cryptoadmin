@@ -4,15 +4,3 @@ server:
 management:
   security:
     enabled: true
-security:
-  user:
-    name: admin
-    password: admin
-spring:
-  boot:
-    admin:
-      client:
-        metadata:
-          user:
-            name: ${security.user.name}
-            password: ${security.user.password}

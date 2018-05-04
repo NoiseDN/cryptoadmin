@@ -1,4 +1,4 @@
-package com.melafon.config;
+package com.melafon.cryptoadmin;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 @Configuration
-@PropertySource("file:/opt/cryptoscan.properties")
+@PropertySource("file:/opt/cryptoadmin.properties")
 public class PropertySourceConfig {
 
     @Bean
