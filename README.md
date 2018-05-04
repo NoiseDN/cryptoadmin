@@ -1,0 +1,1 @@
+Spring Boot Admin app for Cryptoscan
